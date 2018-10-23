@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "399291280710",
+    "firebase_url": "https://dimentiaapp.firebaseio.com",
+    "project_id": "dimentiaapp",
+    "storage_bucket": "dimentiaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399291280710:android:05910f2b47eaa08a",
+        "android_client_info": {
+          "package_name": "com.example.hp.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399291280710-3bvdbgar0dopkspcustbhv0jr2a622ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.login",
+            "certificate_hash": "47a79f33889df6a3dc554c7087170a216dbc5400"
+          }
+        },
+        {
+          "client_id": "399291280710-2m5vn5iph4m2cbhvli13mrbpdet58v8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZxyJwxOw8Nx_vWvAtapF2RCbFSZprtSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399291280710-2m5vn5iph4m2cbhvli13mrbpdet58v8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399291280710:android:c9b0a91f0a302275",
+        "android_client_info": {
+          "package_name": "com.example.hp.reminisce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399291280710-h43b99nq6b99dmjpdl80u3lsb36e7m42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.reminisce",
+            "certificate_hash": "47a79f33889df6a3dc554c7087170a216dbc5400"
+          }
+        },
+        {
+          "client_id": "399291280710-2m5vn5iph4m2cbhvli13mrbpdet58v8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZxyJwxOw8Nx_vWvAtapF2RCbFSZprtSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399291280710-2m5vn5iph4m2cbhvli13mrbpdet58v8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

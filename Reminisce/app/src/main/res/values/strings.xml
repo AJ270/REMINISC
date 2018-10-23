@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Reminisce</string>
+
+    <string name="title_activity_user_list">Alzheimer App</string>
+    //for notification part
+    <string name="title_activity_useractlist">Alzheimer App</string>
+    //for notification part
+    <string name="title_activity_uact_list">Alzheimer App</string>
+    //for notification part
+    <string name="title_activity_edit_data">Alzheimer App</string>
+    //for notification part
+
+    <string name="correct_toast">Correct!</string>
+    //for quiz part
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="question_family">Who is the person at the extreme left end?</string>
+    <string name="question_house">Is this your house?</string>
+    <string name="question_fruit">Which fruit is this?</string>
+    <string name="b1_ans1">That is me!!!</string>
+    <string name="b2_ans1">That is my son </string>
+    <string name="b3_ans1">That is my brother!!</string>
+    <string name="b1_ans2">My uncles house</string>
+    <string name="b2_ans2">It is my house!!</string>
+    <string name="b3_ans2">My neighbours house</string>
+    <string name="b1_ans3">banana</string>
+    <string name="b2_ans3">mango</string>
+    <string name="b3_ans3">apple!!</string>
+</resources>

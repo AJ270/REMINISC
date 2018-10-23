@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.reminisce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAQfiX9MT7T4zZnUdBgIutyNMoDrByBs8k" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Doctor_Login" />
+        <activity android:name=".User_Login" />
+        <activity android:name=".doctor_SignUp" />
+        <activity android:name=".Doctor_Home" />
+        <activity android:name=".DoctorProfileCreate" />
+        <activity android:name=".UserProfileCreateActivity" />
+        <activity android:name=".Doctor_recommendationActivity" />
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".User_HomeActivity" />
+        <activity android:name=".ImageQuizActivity" />
+        <activity android:name=".VideoPlaylistActivity" />
+        <activity android:name=".VideoPlayActivity" />
+        <activity android:name=".Reminder_homeActivity" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity android:name=".SetReminderActivity" />
+        <activity android:name=".Add_View_ReminderActivity" />
+        <activity android:name=".ReminderListActivity" />
+        <activity android:name=".EditReminderActivity" />
+        <activity android:name=".Patient_list" />
+        <activity android:name=".Navigation_Home_Activity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".PopActivity"
+            android:theme="@style/AppTheme.PopMe"></activity>
+    </application>
+
+</manifest>
